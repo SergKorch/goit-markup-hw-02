@@ -1,0 +1,76 @@
+:root {
+ --primary-text-color: #00000;
+ --title-text--color: #757575 ;   
+ --link:#2196F3;
+}
+
+/*.section-title {color:var(--title-text--color)}*/
+ul {list-style: none;} 
+
+/* #2F303A BG */
+/* hover #2196F3 + WEB*/
+/*#212121 heder ФИО*/
+/*F5F4FA фон 2*/
+/* #757575 text должность, хедер телефон*/
+/*#FFFFFF почта+телефон 60% в футере,  #FFFFFF адрес */
+
+body {background-color: #E5E5E5;
+    color:#212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo1 {
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+font-weight: 700px;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+}
+
+.logo2 {
+    color:black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+.site-nav {
+    color:#212121 ;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+/*подсветка текущего сайта????*/
+.site-nav .current {
+    color: blanchedalmond;
+}
+
+.section-hero {color: #212121;}
+
+.section {color: #212121;}
+
+.section-title {color:#757575}
+
+.site-nav:focus,
+.site-nav:hover {color: #2196F3;}
+
+.button {
+    color: white ;
+    background-color: #2196F3;
+}
+
+/*кнопки*/
+/*.button:hover {color:brown;}
+.button:active {color:brown;} */
+
+.navig {color: #757575;}
+.navig:hover {color: #2196F3;}
