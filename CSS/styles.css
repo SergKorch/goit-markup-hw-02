@@ -1,8 +1,7 @@
 :root {
   --primary-text-color: #212121;
-  --primary-background-color: #e5e5e5;
+  --primary-background-color: #ffffff;
   --footer-background-color: #2f303a;
-  --header-background-color: #ffffff;
   --link: #2196f3;
 }
 
@@ -20,8 +19,6 @@ body {
 }
 
 /*стилизация логотипа*/
-.headerstyle {
-  background-color: white;
 }
 .logo1 {
   color: #2196f3;
@@ -126,6 +123,7 @@ body {
 }
 
 /*Чем занимаемся+команда*/
+.command {background-color: #F5F4FA;}
 .section-comand {
   font-weight: 700;
   font-size: 36px;
